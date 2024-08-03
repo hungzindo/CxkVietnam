@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phòng Khám Cơ Xương Khớp - Y Sĩ YHCT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #008080;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Phòng Khám Cơ Xương Khớp - Y Sĩ YHCT</h1>
+    </header>
+    <nav>
+        <a href="#home">Trang Chủ</a>
+        <a href="#about">Giới Thiệu</a>
+        <a href="#services">Dịch Vụ</a>
+        <a href="#contact">Liên Hệ</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Chào mừng đến với Phòng Khám Cơ Xương Khớp</h2>
+        <p>Chúng tôi cung cấp các dịch vụ chăm sóc và điều trị cơ xương khớp chuyên nghiệp.</p>
+    </div>
+    <div class="container" id="about">
+        <h2>Giới Thiệu</h2>
+        <p>Tôi là Y Sĩ YHCT, chuyên về các phương pháp điều trị cơ xương khớp. Với nhiều năm kinh nghiệm, tôi cam kết mang đến cho bạn sự chăm sóc tốt nhất.</p>
+    </div>
+    <div class="container" id="services">
+        <h2>Dịch Vụ</h2>
+        <ul>
+            <li>Khám và điều trị các bệnh cơ xương khớp</li>
+            <li>Châm cứu và bấm huyệt</li>
+            <li>Vật lý trị liệu và phục hồi chức năng</li>
+            <li>Tư vấn dinh dưỡng và lối sống</li>
+        </ul>
+    </div>
+    <div class="container" id="contact">
+        <h2>Liên Hệ</h2>
+        <p>Địa chỉ: [Địa chỉ phòng khám của bạn]</p>
+        <p>Số điện thoại: [Số điện thoại của bạn]</p>
+        <p>Email: [Email của bạn]</p>
+        <p>Bản đồ:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.2804080762383!2d108.14747341531124!3d16.07387714361171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314218dd9d994c81%3A0x6f73fbd4dfdf14e0!2zSMOyYyBUaOG7jSDEkMOgbiBUw6JwIFThuqFuaCBUcmFjdWUgLSBUaOG7pyBOZ3V5w6puIEhvw6BuZw!5e0!3m2!1sen!2s!4v1624869992555!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <footer>
+        <p>&copy; 2024 Phòng Khám Cơ Xương Khớp - Y Sĩ YHCT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
